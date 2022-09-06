@@ -1,214 +1,351 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DESSE EVENT</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="shortcut icon" type="image/png" href="./favicon.jpg"/>
-    <script src="https://kit.fontawesome.com/4f31b71947.js" crossorigin="anonymous"></script>
-</head>
-<body id="body">
-
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="./favicon.jpg" />
+    <script
+      src="https://kit.fontawesome.com/4f31b71947.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="body">
     <div class="navbar">
-        <div class="container">
-            <a class="logo" href="#"><img src="./img/logodesseevent.png" alt=""></a>
-            <input class="checkbox" type="checkbox" name="" id="check" onclick="checkfunction()" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div>  
-            <div id="menu" class="nav-links">
-                <ul>
-                    <li><a href="#" onclick="clickNavLink()">Accueil</a></li>
-                    <li><a href="#presentation" onclick="clickNavLink()">Presentation</a></li>
-                    <li><a href="#services" onclick="clickNavLink()">Services</a></li>
-                    <li><a href="#apropos" onclick="clickNavLink()">A propos</a></li>
-                    <li><a href="#contact" onclick="clickNavLink()">Contact</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="logo" href="#"
+          ><img src="./img/logodesseevent.png" alt=""
+        /></a>
+        <input
+          class="checkbox"
+          type="checkbox"
+          name=""
+          id="check"
+          onclick="checkfunction()"
+        />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
         </div>
+        <div id="menu" class="nav-links">
+          <ul>
+            <li><a class="accueil active" href="#" onclick="clickNavLink()">Accueil</a></li>
+            <li>
+              <a class="presentation" href="#presentation" onclick="clickNavLink()">Presentation</a>
+            </li>
+            <li><a class="services" href="#services" onclick="clickNavLink()">Services</a></li>
+            <li><a class="apropos" href="#apropos" onclick="clickNavLink()">A propos</a></li>
+            <li><a class="contact" href="#contact" onclick="clickNavLink()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <section class="hero">
-        <div class="container">
-            <div class="left">
-                <h1>Nous animons votre</h1>
-                <div class="slide">
-                    <div id="one" class="item first">Soirée</div>
-                    <div id="two" class="item second">Mariage</div>
-                    <div id="three" class="item third">Anniversaire</div>
-                    <div id="four" class="item fourth">Événement</div>
-                </div>
-            </div>
-
-            <div class="mid">
-                <a href="#presentation"><i class="fa-solid fa-chevron-down"></i></a>
-            </div>
-
-            <div class="right">
-                <div class="bar">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="tel:+33500000000"><i class="fa-solid fa-phone"></i></a>
-                    <a href="mailto:desseevent@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                    <a href="https://www.google.fr/maps/place/59600+Maubeuge/" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="left">
+          <h1>Nous animons votre</h1>
+          <div class="slide">
+            <div id="one" class="item first">Soirée</div>
+            <div id="two" class="item second">Mariage</div>
+            <div id="three" class="item third">Anniversaire</div>
+            <div id="four" class="item fourth">Événement</div>
+          </div>
         </div>
+
+        <div class="mid">
+          <a href="#presentation"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+
+        <div class="right">
+          <div class="bar">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="tel:+33500000000"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:desseevent@gmail.com" target="_blank"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a
+              href="https://www.google.fr/maps/place/59600+Maubeuge/"
+              target="_blank"
+              ><i class="fa-solid fa-location-dot"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="presentation" class="deux">
-        <div class="container">
-            <div class="txt">
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi aliquam aut eum odit quisquam et rem iusto, deleniti unde ipsa officiis explicabo consequatur excepturi corporis amet veniam debitis voluptatem.</p>
-            </div>
-            <div class="cards">
-                <div class="card card1">
-                    <div class="content">
-                        <img src="./img/contact.svg" alt="">
-                        <h3>Contact</h3>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perspiciatis totam molestiae deleniti fugit sint dolores delectus magni, necessitatibus sequi?</p>
-                    </div>
-                    <div class="number">
-                        <p>01</p>
-                    </div>
-                </div>
-
-                <div class="arrow"><img src="./img/right-arrow.svg" alt=""></div>
-
-                <div class="card card2">
-                    <div class="content">
-                        <img src="./img/calendar.svg" alt="">
-                        <h3>Date</h3>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perspiciatis totam molestiae deleniti fugit sint dolores delectus magni, necessitatibus sequi?</p>
-                    </div>
-                    <div class="number">
-                        <p>02</p>
-                    </div>
-                </div>
-
-                <div class="arrow"><img src="./img/right-arrow.svg" alt=""></div>
-
-                <div class="card card3">
-                    <div class="content">
-                        <img src="./img/party.svg" alt="">
-                        <h3>Party</h3>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perspiciatis totam molestiae deleniti fugit sint dolores delectus magni, necessitatibus sequi?</p>
-                    </div>
-                    <div class="number">
-                        <p>03</p>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="txt">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+            eligendi aliquam aut eum odit quisquam et rem iusto, deleniti unde
+            ipsa officiis explicabo consequatur excepturi corporis amet veniam
+            debitis voluptatem.
+          </p>
         </div>
+        <div class="cards">
+          <div class="card card1">
+            <div class="content">
+              <img src="./img/contact.svg" alt="" />
+              <h3>Contact</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                perspiciatis totam molestiae deleniti fugit sint dolores
+                delectus magni, necessitatibus sequi?
+              </p>
+            </div>
+            <div class="number">
+              <p>01</p>
+            </div>
+          </div>
+
+          <div class="arrow"><img src="./img/right-arrow.svg" alt="" /></div>
+
+          <div class="card card2">
+            <div class="content">
+              <img src="./img/calendar.svg" alt="" />
+              <h3>Date</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                perspiciatis totam molestiae deleniti fugit sint dolores
+                delectus magni, necessitatibus sequi?
+              </p>
+            </div>
+            <div class="number">
+              <p>02</p>
+            </div>
+          </div>
+
+          <div class="arrow"><img src="./img/right-arrow.svg" alt="" /></div>
+
+          <div class="card card3">
+            <div class="content">
+              <img src="./img/party.svg" alt="" />
+              <h3>Party</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                perspiciatis totam molestiae deleniti fugit sint dolores
+                delectus magni, necessitatibus sequi?
+              </p>
+            </div>
+            <div class="number">
+              <p>03</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="services" class="trois">
-       <div class="container">
-        <div class="left">
-            <div class="img"></div>
-            <h3>Location Limousine</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequatur reprehenderit tempora labore quo at perspiciatis veritatis. Nesciunt odit itaque ex cum labore numquam fugiat, sit dolore rerum, iusto vitae.</p>
+      <div class="container">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <div class="cards">
+          <div class="left">
+          <div class="img"></div>
+          <h3>Location Limousine</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+            consequatur reprehenderit tempora labore quo at perspiciatis
+            veritatis. Nesciunt odit itaque ex cum labore numquam fugiat, sit
+            dolore rerum, iusto vitae.
+          </p>
         </div>
-
 
         <div class="right">
-            <div class="img"></div>
-            <h3>Feux d'artifices</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequatur reprehenderit tempora labore quo at perspiciatis veritatis. Nesciunt odit itaque ex cum labore numquam fugiat, sit dolore rerum, iusto vitae.</p>
+          <div class="img"></div>
+          <h3>Feux d'artifices</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+            consequatur reprehenderit tempora labore quo at perspiciatis
+            veritatis. Nesciunt odit itaque ex cum labore numquam fugiat, sit
+            dolore rerum, iusto vitae.
+          </p>
         </div>
-       </div>
+      </div>
     </section>
 
     <section id="apropos" class="quatre">
-        <div class="container">
-            <div class="left">
-                <h3>A propos de Desse Event</h3>
-                <div class="img"></div>
-            </div>
-
-            <div class="right">
-                <h3>A propos de Desse Event</h3>
-                <p class="un">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore illum adipisci nesciunt officia doloribus exercitationem modi recusandae maxime suscipit, quibusdam itaque qui eos commodi, impedit eveniet odit laborum. Iure, voluptatem?</p>
-                <p class="deux">Thibaut Desse, CEO Desse Event</p>
-            </div>
+      <div class="container">
+        <div class="left">
+          <h3>A propos de Desse Event</h3>
+          <div class="img"></div>
         </div>
+
+        <div class="right">
+          <h3>A propos de Desse Event</h3>
+          <p class="un">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
+            illum adipisci nesciunt officia doloribus exercitationem modi
+            recusandae maxime suscipit, quibusdam itaque qui eos commodi,
+            impedit eveniet odit laborum. Iure, voluptatem?
+          </p>
+          <p class="deux">Thibaut Desse, CEO Desse Event</p>
+        </div>
+        </div>
+
+      </div>
     </section>
 
     <section id="contact" class="cinq">
-        <div class="contact">
-            <div class="container">
-                <div class="txt">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi aliquam aut eum odit quisquam et rem iusto, deleniti unde ipsa officiis explicabo consequatur excepturi corporis amet veniam debitis voluptatem.</p>
-                </div>
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.020367546846!2d3.964464015894377!3d50.27287830802462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2682fa08e8b17%3A0x8fcf1ea87fbd65d7!2sMaubeuge!5e0!3m2!1sfr!2sfr!4v1662121947698!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="social">
-                    <a class="btn" href="https://www.facebook.com/" target="_blank">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a class="btn" href="https://www.instagram.com/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a class="btn" href="https://twitter.com/" target="_blank">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a class="btn" href="tel:+33500000000">
-                        <i class="fa-solid fa-phone"></i>
-                    </a>
-                    <a class="btn" href="mailto:desseevent@gmail.com" target="_blank">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                    <a class="btn" href="https://www.google.fr/maps/place/59600+Maubeuge/" target="_blank">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
         <div class="footer">
-            <div class="container">
-                <p>© Copyright 2022 Desse Event. All rights reserved.</p>
-            </div>
+          <p>© Copyright 2022 Desse Event. All rights reserved.</p>
         </div>
+
+      <div class="container">
+          <div class="txt">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              eligendi aliquam aut eum odit quisquam et rem iusto, deleniti unde
+              ipsa officiis explicabo consequatur excepturi corporis amet veniam
+              debitis voluptatem.
+            </p>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.020367546846!2d3.964464015894377!3d50.27287830802462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2682fa08e8b17%3A0x8fcf1ea87fbd65d7!2sMaubeuge!5e0!3m2!1sfr!2sfr!4v1662121947698!5m2!1sfr!2sfr"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="social">
+            <a class="btn" href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="btn" href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="btn" href="https://twitter.com/" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="btn" href="tel:+33500000000">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a class="btn" href="mailto:desseevent@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a
+              class="btn"
+              href="https://www.google.fr/maps/place/59600+Maubeuge/"
+              target="_blank"
+            >
+              <i class="fa-solid fa-location-dot"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
-<script>
-    
-    var openMenu = document.getElementById("menu");
-    var stopScroll = document.getElementById("body");
+    <script>
 
-    function checkfunction() {
-    var check = document.getElementById("check");
+        /* Fonction menu burger */
+      var openMenu = document.getElementById("menu");
+      var stopScroll = document.getElementById("body");
 
-    if (check.checked === true) {
-        openMenu.classList.add('menu-open');
-        stopScroll.classList.add('blockscroll');
-    }
-    else {
-        openMenu.classList.remove('menu-open');
-        stopScroll.classList.remove('blockscroll');
-    }
-}
+      function checkfunction() {
+        var check = document.getElementById("check");
 
-function clickNavLink() {
-    check.checked = false;
-    openMenu.classList.remove('menu-open');
-    stopScroll.classList.remove('blockscroll');
-}
+        if (check.checked === true) {
+          openMenu.classList.add("menu-open");
+          stopScroll.classList.add("blockscroll");
+        } else {
+          openMenu.classList.remove("menu-open");
+          stopScroll.classList.remove("blockscroll");
+        }
+      }
+      /* Fonction menu burger */
 
-/*  Permettre le 100vh sur mobile  */
-let vh = window.innerHeight * 0.01;
-const hauteur = window.innerHeight;
-document.documentElement.style.setProperty("--vh", `${vh}px`);
-/*  Permettre le 100vh sur mobile  */
+      function clickNavLink() {
+        check.checked = false;
+        openMenu.classList.remove("menu-open");
+        stopScroll.classList.remove("blockscroll");
+      }
 
-</script>
-</body>
+      /*  Permettre le 100vh sur mobile  */
+      let vh = window.innerHeight * 0.01;
+      const hauteur = window.innerHeight;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+      /*  Permettre le 100vh sur mobile  */
+
+      /* Fonction class active selon le scroll */
+
+      const accueil = document.querySelector('.accueil');
+      const presentation = document.querySelector('.presentation');
+      const services = document.querySelector('.services');
+      const apropos = document.querySelector('.apropos');
+      const contact = document.querySelector('.contact');
+
+      const secdeux = document.getElementById("presentation");
+      const sectrois = document.getElementById("services");
+      const secquatre = document.getElementById("apropos");
+      const seccinq = document.getElementById("contact");
+      
+
+      let  heightdeux = secdeux.clientHeight;
+      let  heighttrois = heightdeux + sectrois.clientHeight;
+      let  heightquatre = heighttrois + secquatre.clientHeight;
+      let  heightcinq = heightquatre + seccinq.clientHeight;
+
+      window.addEventListener('scroll', () => {
+
+        if(window.scrollY >= 0 && window.scrollY < heightdeux) {
+            accueil.classList.add('active');
+            presentation.classList.remove('active');
+            services.classList.remove('active');
+            apropos.classList.remove('active');
+            contact.classList.remove('active');
+        }
+
+        else if(window.scrollY >= heightdeux && window.scrollY < heighttrois) {
+            accueil.classList.remove('active');
+            presentation.classList.add('active');
+            services.classList.remove('active');
+            apropos.classList.remove('active');
+            contact.classList.remove('active');
+        }
+        
+        else if(window.scrollY >= heighttrois && window.scrollY < heightquatre) {
+            accueil.classList.remove('active');
+            presentation.classList.remove('active');
+            services.classList.add('active');
+            apropos.classList.remove('active');
+            contact.classList.remove('active');
+        }
+
+        else if(window.scrollY >= heightquatre && window.scrollY < heightcinq) {
+            accueil.classList.remove('active');
+            presentation.classList.remove('active');
+            services.classList.remove('active');
+            apropos.classList.add('active');
+            contact.classList.remove('active');
+        }
+
+        else if(window.scrollY >= heightcinq) {
+            accueil.classList.remove('active');
+            presentation.classList.remove('active');
+            services.classList.remove('active');
+            apropos.classList.remove('active');
+            contact.classList.add('active');
+        }
+      });
+
+
+      /* Fonction class active selon le scroll */
+    </script>
+  </body>
 </html>
